@@ -1,0 +1,24 @@
+{
+    "name": "Juniorenliga/Site",
+    "type": "neos-site",
+    "description": "Site package for the Juniorenliga Site",
+    "license": [
+        "GPL-3.0-or-later"
+    ],
+    "require": {
+        "neos/neos": "^7.0 || dev-master",
+        "neos/fusion-afx": "*",
+        "neos/nodetypes-basemixins": "*",
+        "neos/nodetypes-assetlist": "*",
+        "neos/nodetypes-contentreferences": "*",
+        "neos/nodetypes-form": "*",
+        "neos/nodetypes-html": "*",
+        "neos/nodetypes-navigation": "*",
+        "flowpack/neos-frontendlogin": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Juniorenliga\\Site\\": "Classes"
+        }
+    }
+}

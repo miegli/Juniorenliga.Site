@@ -1,0 +1,19 @@
+##
+# A new Document NodeType "Page"
+#
+'Juniorenliga.Site:Document.Page':
+  superTypes:
+    'Neos.Neos:Document': true
+  ui:
+    label: i18n
+    icon: 'file'
+    inspector:
+      groups:
+        image:
+          label: i18n
+          position: 200
+          icon: 'icon-image'
+  constraints:
+    nodeTypes:
+      # Neos.NodeTypes is deprecated and we prevent adding documents from this package
+      'Neos.NodeTypes:Page': false

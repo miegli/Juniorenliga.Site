@@ -1,0 +1,8 @@
+/**
+ * Stylesheets of the page to be included in the header
+ */
+prototype(Juniorenliga:Site.Document.Fragment.StyleSheets) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <link rel="stylesheet" href={StaticResource.uri('Juniorenliga.Site', 'Public/Styles/Main.css')} media="all" />
+    `
+}

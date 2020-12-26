@@ -1,0 +1,6 @@
+/**
+ * Default page-rendering for the Juniorenliga.Site website
+ */
+prototype(Juniorenliga.Site:Document.Page) < prototype(Juniorenliga.Site:Document.Base) {
+
+}

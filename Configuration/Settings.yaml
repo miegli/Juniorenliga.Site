@@ -1,0 +1,24 @@
+Neos:
+  Neos:
+    fusion:
+      autoInclude:
+        Juniorenliga.Site: true
+    userInterface:
+      translation:
+        autoInclude:
+          Juniorenliga.Site:
+            - Main
+            - 'NodeTypes/*'
+  ContentRepository:
+    contentDimensions:
+      language:
+        label: 'Juniorenliga.Site:Main:contentDimensions.language'
+        icon: icon-language
+        default: de_CH
+        defaultPreset: de_CH
+        presets:
+          de_CH:
+            label: 'Deutsch'
+            values:
+              - de_CH
+            uriSegment: de

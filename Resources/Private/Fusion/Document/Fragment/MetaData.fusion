@@ -1,0 +1,6 @@
+
+prototype(Juniorenliga:Site.Document.Fragment.MetaData) < prototype(Neos.Fusion:Component) {
+    renderer = afx`
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    `
+}
