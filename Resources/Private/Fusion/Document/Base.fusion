@@ -21,3 +21,7 @@ prototype(Juniorenliga.Site:Document.Base) < prototype(Neos.Fusion:Component) {
         body = ${props.body}
     }
 }
+prototype(Neos.Neos:Document) < prototype(Juniorenliga.Site:Document.Base) {
+
+
+}
